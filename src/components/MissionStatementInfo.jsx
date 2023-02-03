@@ -40,7 +40,7 @@ function MissionStatementInfo() {
             <div class="space-y-0.5 font-medium dark:text-white text-center">
               <div>Carlos Lopez</div>
               <div class="text-sm font-light text-gray-500 dark:text-gray-400">
-                Lead designer at Dropbox
+                Lead Designer at The Charlotte Benefit
               </div>
             </div>
           </figcaption>
@@ -60,7 +60,7 @@ function MissionStatementInfo() {
             <div class="space-y-0.5 font-medium dark:text-white text-center">
               <div>Evan Degraffe</div>
               <div class="text-sm font-light text-gray-500 dark:text-gray-400">
-                Software Engineer at Facebook
+                Software Engineer at The Charlotte Benefit
               </div>
             </div>
           </figcaption>
@@ -79,7 +79,7 @@ function MissionStatementInfo() {
             <div class="space-y-0.5 font-medium dark:text-white text-left">
               <div>Kevin Taylor</div>
               <div class="text-sm font-light text-gray-500 dark:text-gray-400">
-                CTO at Google
+                CTO at The Charlotte Benefit
               </div>
             </div>
           </figcaption>
