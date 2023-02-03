@@ -7,7 +7,9 @@ import {
   AiOutlineDesktop,
   AiOutlineFileSearch,
   AiOutlineCode,
+  AiOutlineLogout,
 } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const SideNavBar = () => {
   const [isExpanded, setExpandState] = useState(false);
@@ -79,7 +81,14 @@ const SideNavBar = () => {
       </div>
       <div className="nav-footer">
         <div className="nav-detais">
-          <div className="navIcon"></div>
+          <div className="navIcon">
+            <div className="navInfo"></div>
+          </div>
+        </div>
+        <div className="navLogout">
+          <Link to="/home">
+            <AiOutlineLogout className="logout-icon" />
+          </Link>
         </div>
       </div>
     </div>

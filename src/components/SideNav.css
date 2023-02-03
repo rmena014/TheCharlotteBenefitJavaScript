@@ -5,6 +5,7 @@
   position: fixed;
   color: white;
   transition: 0.4s;
+  z-index: 2;
 }
 
 .side-nav-container-NX {
@@ -147,4 +148,29 @@
   background-color: rgb(0, 145, 255);
   border: 2px solid rgb(111, 192, 246);
   padding: 10px;
+}
+
+.nav-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.nav-logout {
+  width: 30px;
+  margin: auto;
+  border-radius: 90px;
+  padding: 20px;
+  margin-left: 5px;
+}
+
+.logout-icon {
+  font-size: 1.7em;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.logout-icon:hover {
+  background-color: rgb(22, 39, 91);
 }
