@@ -76,7 +76,7 @@ function MissionStatementInfo() {
             </p>
           </blockquote>
           <figcaption class="flex items-center justify-center space-x-3">
-            <div class="space-y-0.5 font-medium dark:text-white text-left">
+            <div class="space-y-0.5 font-medium dark:text-white text-center">
               <div>Kevin Taylor</div>
               <div class="text-sm font-light text-gray-500 dark:text-gray-400">
                 CTO at The Charlotte Benefit

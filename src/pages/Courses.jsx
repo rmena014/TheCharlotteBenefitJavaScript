@@ -51,12 +51,12 @@ const Courses = () => {
               <div key={course.course_id} className="course-card">
                 <h2 className="course-name">{course.name}</h2>
                 <p className="course-info">{course.description}</p>
-                <p className="course-date">
+                <h3 className="course-date">
                   Course dates: {startDate} - {endDate}
-                </p>
-                <p className="course-instructor">
+                </h3>
+                <h3 className="course-instructor">
                   Instructor: {course.instructor}
-                </p>
+                </h3>
                 <button
                   className="enroll-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-5"
                   onClick={() => handleEnroll(course)}
