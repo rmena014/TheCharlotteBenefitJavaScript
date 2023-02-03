@@ -15,10 +15,13 @@ function LoginModal({ closeModal }) {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3001/api/login", {
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "http://ec2-54-144-144-29.compute-1.amazonaws.com/api/login",
+        {
+          email,
+          password,
+        }
+      );
       console.log(response);
       setSubmitted(true);
       localStorage.setItem("email", email);

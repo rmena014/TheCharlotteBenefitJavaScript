@@ -10,9 +10,12 @@ const Courses = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await axios.get("http://localhost:3001/api/courses", {
-        params: { name: searchTerm },
-      });
+      const result = await axios.get(
+        "http://ec2-54-144-144-29.compute-1.amazonaws.com/api/courses",
+        {
+          params: { name: searchTerm },
+        }
+      );
       setCourses(result.data);
     };
 

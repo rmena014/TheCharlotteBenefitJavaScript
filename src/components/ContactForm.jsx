@@ -20,7 +20,10 @@ const ContactForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("http://localhost:3001/api/contact", formData)
+      .post(
+        "http://ec2-54-144-144-29.compute-1.amazonaws.com/api/contact",
+        formData
+      )
       .then((response) => {
         console.log(response);
         setFormData({ name: "", email: "", message: "" });

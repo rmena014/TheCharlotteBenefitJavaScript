@@ -23,7 +23,7 @@ const Profile = () => {
       return;
     }
 
-    fetch(`http://localhost:3001/api/users/${email}`)
+    fetch(`http://ec2-54-144-144-29.compute-1.amazonaws.com/api/users/${email}`)
       .then((res) => res.json())
       .then((data) => {
         setData(data[0]);
