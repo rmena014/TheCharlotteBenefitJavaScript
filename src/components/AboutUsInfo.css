@@ -1,0 +1,11 @@
+.max-w-sm {
+  margin: 1rem;
+}
+
+@media (max-width: 767px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

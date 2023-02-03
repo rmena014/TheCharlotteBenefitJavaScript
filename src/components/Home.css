@@ -1,0 +1,100 @@
+.navbar-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  z-index: 2;
+}
+
+.nav-link {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: black; /* default color */
+  transition: 0.8s ease; /* smooth transition on hover */
+}
+
+.nav-link:hover {
+  color: rgb(0, 123, 255); /* hover color */
+  transform: scale(1.2);
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+.nav-link,
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  transition: transform 0.7s ease; /* smooth transition on hover */
+}
+
+.nav-logo:hover {
+  transform: scale(1.1); /* scaling the logo on hover */
+}
+
+section {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.section1-text,
+.section2-text,
+.section3-text,
+.section4-text {
+  font-size: 1.25rem;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.nav-logo {
+  width: 85px;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-link {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .section1-text,
+  .section2-text,
+  .section3-text,
+  .section4-text {
+    font-size: 0.9rem;
+  }
+}

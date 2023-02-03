@@ -1,0 +1,37 @@
+.close-text {
+  background-color: transparent;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #fff;
+  width: 50%;
+}
+
+.modal-content select {
+  width: 100%;
+}
+
+.close-button {
+  color: black;
+  border-radius: 5px; /* rounded corners */
+  font-size: 1.25rem; /* increase the font size */
+  cursor: pointer; /* change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* smooth transition on hover */
+}
+
+.close-button:hover {
+  background-color: #cc0000; /* darker red background on hover */
+  color: white;
+}
