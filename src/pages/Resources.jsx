@@ -7,7 +7,9 @@ function Resources() {
   const [selectedType, setSelectedType] = useState("all");
 
   useEffect(() => {
-    fetch("http://localhost:3001/api/training-materials")
+    fetch(
+      "http://ec2-54-144-144-29.compute-1.amazonaws.com/api/training-materials"
+    )
       .then((response) => response.json())
       .then((data) => setMaterials(data));
   }, []);
